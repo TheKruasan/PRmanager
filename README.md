@@ -30,22 +30,3 @@
 | **HTTP-роутер** | Chi |
 | **Миграции** | golang-migrate |
 | **Контейнеризация** | Docker + Docker Compose |
-
----
-
-## Быстрый старт
-
-### Предварительные требования
-- Docker 20.10+
-- Docker Compose 2.0+
-
-### Запуск в один клик
-```bash
-# Клонирование репозитория
-git clone <repository-url>
-cd prmanager
-
-# Запуск всех сервисов
-docker-compose up --build
-
-# Сервис будет доступен на http://localhost:8080
